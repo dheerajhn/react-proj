@@ -8,7 +8,7 @@ class Landing extends Component {
     return (
       <div>
         <Header />
-        <div class="main-container mar-bot-8">
+        <div className="main-container mar-bot-8">
           <Sidebar />
         </div>
         <Footer />

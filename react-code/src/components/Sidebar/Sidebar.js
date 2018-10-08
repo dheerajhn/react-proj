@@ -8,14 +8,8 @@ class Sidebar extends Component {
       <div className="left-tab">
         <div className="market-update">
           <div className="form-group form-s market-down">
-            <label for="usr">Sensex</label>
-            <input
-              type="read"
-              className="sensex"
-              id="usr"
-              value="25,656.70"
-              readonly=""
-            />
+            <label>Sensex</label>
+            <input type="read" className="sensex" id="usr" value="25,656.70" />
             <span className="market-down down-icon">
               <img src={DownIcon} alt={DownIcon} />
               <input
@@ -24,20 +18,13 @@ class Sidebar extends Component {
                 className="sensex sensex-float"
                 id="usr"
                 value="-0.75%"
-                readonly=""
               />
             </span>
             {/* <!-- when sensex & nifty price down than ("down-icon" for images className  ) className used it.  --> */}
           </div>
           <div className="form-group form-s nifty market-up">
-            <label for="usr">Nifty</label>
-            <input
-              type="read"
-              className="sensex"
-              id="usr"
-              value="25,656.70"
-              readonly=""
-            />
+            <label>Nifty</label>
+            <input type="read" className="sensex" id="usr" value="25,656.70" />
             <span className="market-up up-icon">
               <img src={UpIcon} alt={UpIcon} />
               <input
@@ -46,7 +33,6 @@ class Sidebar extends Component {
                 className="sensex sensex-float"
                 id="usr"
                 value="0.75%"
-                readonly=""
               />
             </span>
           </div>
@@ -65,60 +51,6 @@ class Sidebar extends Component {
             <li className="tab-1 tab-c tab-active">
               <a className="tab-a" href="#tab1">
                 <p className="c-name">NIRALI RATHI</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-2 tab-c">
-              <a className="tab-a" href="#tab2">
-                <p className="c-name">RITESH</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-3 tab-c">
-              <a className="tab-a" href="#tab3">
-                <p className="c-name">ARUN UNCLE</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-4 tab-c">
-              <a className="tab-a" href="#tab4">
-                <p className="c-name">ARUN UNCLE</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-5 tab-c">
-              <a className="tab-a" href="#tab5">
-                <p className="c-name">NIRALI</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-6 tab-c">
-              <a className="tab-a" href="#tab6">
-                <p className="c-name">MADAN</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-7 tab-c">
-              <a className="tab-a" href="#tab7">
-                <p className="c-name">URVI</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-8 tab-c">
-              <a className="tab-a" href="#tab8">
-                <p className="c-name">MADAN</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-9 tab-c">
-              <a className="tab-a" href="#tab9">
-                <p className="c-name">MADAN</p>
-                <p className="c-balance">10,9200.00</p>
-              </a>
-            </li>
-            <li className="tab-10 tab-c">
-              <a className="tab-a" href="#tab10">
-                <p className="c-name">MADAN</p>
                 <p className="c-balance">10,9200.00</p>
               </a>
             </li>
