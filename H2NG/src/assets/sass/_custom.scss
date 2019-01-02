@@ -1,0 +1,166 @@
+// --------------------------- Custom Css ----------------------------
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(57, 63, 79, 0.8);
+  -webkit-font-smoothing: antialiased;
+
+  height: 100%;
+  background-color: transparent;
+}
+// ------------- Login Page -------------
+.login-panel {
+  width: 100%;
+  display: flex;
+  .loginbgcolor {
+    background-color: #00518a;
+    padding: 40px;
+    height: -webkit-fill-available;
+    .login-heading {
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+      }
+      h2 {
+        font-weight: 400;
+        color: #fff;
+        font-size: 26px;
+        padding: 25px 20px 10px 0;
+        margin: 0;
+      }
+    }
+    .login-form {
+      margin: 0px;
+      overflow: hidden;
+      .logo-container {
+        text-align: center;
+        padding: 0px;
+
+        .logo {
+          height: 100px;
+        }
+        .login-btn {
+          overflow: hidden;
+          a {
+            font-size: 28px;
+            font-weight: 600;
+            &:active {
+              border-bottom: 2px solid #fff 0.7;
+              padding-bottom: 5px;
+              color: #fff;
+              opacity: 1;
+            }
+          }
+        }
+        p {
+          color: #fff;
+          text-align: left;
+          font-size: 16px;
+          font-weight: 400;
+          margin: 20px 0 5px 0;
+        }
+        h1 {
+          font-size: 32px;
+          color: #fff;
+          margin: 0;
+        }
+        span {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 12px;
+          margin-bottom: 20px;
+          opacity: 0.7;
+          padding: 0 115px;
+          display: block;
+        }
+      }
+      &.chkbox-container {
+        padding: 0px;
+        .ui-g-6 {
+          padding: 0;
+          a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    .input-wrapper {
+      position: relative;
+      i {
+        position: absolute;
+        color: #bdbbbc;
+        top: 16px;
+        left: 16px;
+        font-size: 18px;
+      }
+      input {
+        height: 50px;
+        padding: 8px 16px 8px 15px;
+        background: #fff;
+        margin: 10px 0;
+        color: #00518a;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        -moz-transition: border-color 0.3s;
+        -o-transition: border-color 0.3s;
+        -webkit-transition: border-color 0.3s;
+        transition: border-color 0.3s;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+    .button-container {
+      button {
+        display: block;
+        max-width: 125px;
+        padding: 10px 16px;
+        margin-top: 16px;
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        font-weight: 500;
+        box-shadow: 0px 1px 1px 0 rgba(0, 0, 0, 0.1);
+        font-size: 14px;
+        -moz-transition: background-color 0.3s;
+        -o-transition: background-color 0.3s;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+  .loginbgimage {
+    background: url("../images/etl-gif.gif");
+    background-size: cover;
+    height: -webkit-fill-available;
+    background-position: center center;
+    .logo {
+      padding: 10px 30px 0 0;
+      float: right;
+      img {
+        height: 100px;
+      }
+    }
+  }
+}
+// ------------- Login Page -------------
+
+// ------------- Landing Page -------------
+
+// ------------- Landing Page -------------
+
+// --------------------------- Custom Css ----------------------------

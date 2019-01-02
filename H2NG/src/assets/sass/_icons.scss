@@ -1,0 +1,40 @@
+.icon-etl-design {
+  &:before {
+    content: "\e800";
+  }
+}
+.icon-logout-2 {
+  &:before {
+    content: "\e801";
+  }
+}
+.icon-jobs {
+  &:before {
+    content: "\e802";
+  }
+}
+.icon-reports {
+  &:before {
+    content: "\e803";
+  }
+}
+.icon-activity {
+  &:before {
+    content: "\e804";
+  }
+}
+.icon-config-manager {
+  &:before {
+    content: "\e805";
+  }
+}
+
+.iconetl {
+  font-family: "etl-fonticon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+}
